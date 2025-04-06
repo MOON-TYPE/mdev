@@ -5,9 +5,16 @@ Temp
 Library
 Obj
 obj
+src/Logs/*
+src/Recordings/*
  
 # ===================================== #
-# Visual Studio / MonoDevelop 
+# Capturas de memoria
+# ===================================== #
+/[Mm]emoryCaptures/
+
+# ===================================== #
+# Visual Studio / MonoDevelop / JetBrains
 # ===================================== #
 ExportedObj/
 *.svd
@@ -20,6 +27,8 @@ ExportedObj/
 *.unityproj
 *.booproj
 *.vs
+*.idea
+.gradle
  
 # ===================================== #
 # OS 
@@ -29,34 +38,46 @@ ExportedObj/
 ._*
 .Spotlight-V100
 .Trashes
-Icon?
+# Icon?
 ehthumbs.db
 Thumbs.db
 .AppleDouble
 .LSOverride
  
+# ===================================== #
 # Instaladores de Windows
+# ===================================== #
 *.cab
 *.msi
 *.msm
 *.msp
  
+# ===================================== #
 # Configurador de carpetas
+# ===================================== #
 Desktop.ini
+icon.ico
  
+# ===================================== #
 # Papelera de reciclaje utilizada en archivos compartidos
+# ===================================== #
 $RECYCLE.BIN/
  
 # ===================================== #
 # Personalizados
 # ===================================== #
 # Relacionado con el Proyecto
-Assets/_Content/GUI
- 
+aplicacion
+copia
+src/Assets/0/*
+testeo
+alexandria
+
+# ===================================== #
 # COPYRIGHTED / ASSET STORE
-MDev Project/Assets/ThirdParty/*
-MDev Project/Assets/ThirdParty.meta
-dev/*
+# ===================================== #
  
+# ===================================== #
 # GITEYE
+# ===================================== #
 *.project
